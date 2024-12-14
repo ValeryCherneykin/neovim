@@ -1,0 +1,37 @@
+# Ignore swap files
+*.swp
+*.swo
+
+# Ignore backup files
+*.bak
+*.tmp
+*~
+
+# Ignore undo files
+*.un~
+
+# Ignore session files
+Session.vim
+session.vim
+
+# Ignore Neovim plugin data
+plugged/
+site/
+pack/*/start/*
+pack/*/opt/*
+
+# Ignore LSP logs and temp files
+.log/
+.logs/
+nvimlog
+*.log
+
+# Ignore any cache files
+.cache/
+.aux/
+shada/
+*.shada
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
