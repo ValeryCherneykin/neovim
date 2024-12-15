@@ -1,7 +1,7 @@
 -- Line Numbers
 vim.wo.number = true
 vim.wo.relativenumber = true
--- Mouse 
+-- Mouse
 vim.opt.mouse = "a"
 vim.opt.mousefocus = true
 
@@ -20,12 +20,12 @@ vim.opt.termguicolors = true
 
 -- Fillchars
 vim.opt.fillchars = {
-    vert = "│",
-    fold = "⠀",
-    eob = " ", -- suppress ~ at EndOfBuffer
-    -- diff = "⣿", -- alternatives = ⣿ ░ ─ ╱
-    msgsep = "‾",
-    foldopen = "▾",
-    foldsep = "│",
-    foldclose = "▸"
+  vert = "│",
+  fold = "⠀",
+  eob = " ", -- suppress ~ at EndOfBuffer
+  -- diff = "⣿", -- alternatives = ⣿ ░ ─ ╱
+  msgsep = "‾",
+  foldopen = "▾",
+  foldsep = "│",
+  foldclose = "▸",
 }
