@@ -5,7 +5,7 @@ return{
 		config = function()
 			require('lualine').setup()
 				options = {
-					globalsstatus = true
+					globalsstatus = true,
 				}
 		 end
 	}
